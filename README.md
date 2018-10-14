@@ -8,3 +8,4 @@
 4. `create view total_error as select to_char(date_trunc('day', time::timestamp with time zone), 'YYYY-MM-DD') as dd, count(*) as count_total from log group by to_char(date_trunc('day', time::timestamp with time zone), 'YYYY-MM-DD');`
 # Executar
 - rodar analiseLogs.py utilizando o python 2.7: vagrant@vagrant:/vagrant$ `python analiseLogs.py`
+## Exemplo do resultado do programa: output.txt
