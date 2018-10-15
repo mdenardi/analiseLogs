@@ -1,3 +1,5 @@
+#!/usr/bin/env python
+
 import psycopg2
 
 
@@ -11,6 +13,7 @@ def printquery(y, j):
         print ">", x[i][0], "-", x[i][1], j
     print "\n"
 
+	
 print "1. Quais sao os tres artigos mais populares de todos os tempos?"
 
 printquery("select title, num\
