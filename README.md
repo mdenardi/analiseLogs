@@ -1,6 +1,6 @@
 # Instalar
 - baixar arquivo compactado: https://github.com/mdenardi/analiseLogs/archive/master.zip
-- instalar o Vagrant[https://www.vagrantup.com/downloads.html]
+- instalar o [Vagrant](https://www.vagrantup.com/downloads.html)
 - extrair na pasta vagrant (programa será executado por dentro da VM)
 ## Criar Views
 1. `create view report as select articles.title,articles.slug, authors.name from articles, authors where articles.author = authors.id;`
