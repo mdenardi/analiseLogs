@@ -12,4 +12,4 @@
 
 
 3. Em quais dias mais de 1% das requisicoes resultaram em erros?
-> 2016-07-17 - 2.26 % errors
+> Jul 17, 2016 - 2.26 % errors
